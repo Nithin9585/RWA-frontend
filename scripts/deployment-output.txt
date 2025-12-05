@@ -1,0 +1,47 @@
+Script ran successfully.
+Gas used: 14915578
+
+== Logs ==
+  [+] Deploying Garden System (local)...
+  [+] Deployer: 0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38
+
+[+] Deploying template facets...
+  [+] DiamondCutFacet: 0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496
+  [+] OwnershipFacet: 0x34A1D3fff3958843C43aD80F30b94c510645C316
+  [+] DiamondRWAYieldFacetV2: 0x90193C961A926261B756D1E5bb255e67ff9498A1
+  [+] GovernanceFacet: 0xA8452Ec99ce0C64f20701dB7dD3abDb607c00496
+
+[+] Deploying GardenRegistry...
+  [+] GardenRegistry: 0xBb2180ebd78ce97360503434eD37fcf4a1Df61c3
+
+[+] Deploying GardenFactory...
+  [+] GardenFactory: 0xDB8cFf278adCCF9E9b5da745B44E754fC4EE3C76
+  [+] Registry updated with factory address
+
+[+] Configuring factory...
+  [+] Template facets configured
+  [+] CONSERVATIVE strategy configured (Backed IB01 T-Bills)
+  [+] BALANCED strategy configured (IB01 + USDY)
+  [+] AGGRESSIVE strategy configured (OUSG + STBT)
+
+[+] Deploying initial gardens...
+  [+] Conservative Garden deployed: 0xD9405B3719e260EDB7842b3C91cCD9bD8EEC0f1E
+  [+] Balanced Garden deployed: 0x69f925b7029dC25C8231203901C337F88B01275D
+  [+] Aggressive Garden deployed: 0x7Aad7120f162744bc645b5f65088eCF0e4dEE0B8
+
+============================================
+  GARDEN SYSTEM DEPLOYED SUCCESSFULLY
+  ============================================
+  Registry: 0xBb2180ebd78ce97360503434eD37fcf4a1Df61c3
+  Factory: 0xDB8cFf278adCCF9E9b5da745B44E754fC4EE3C76
+  ---
+  Template Facets:
+    DiamondCutFacet: 0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496
+    RWAFacetV2: 0x90193C961A926261B756D1E5bb255e67ff9498A1
+    GovernanceFacet: 0xA8452Ec99ce0C64f20701dB7dD3abDb607c00496
+  ---
+  Gardens:
+    Conservative (T-Bills): 0xD9405B3719e260EDB7842b3C91cCD9bD8EEC0f1E
+    Balanced (Mixed): 0x69f925b7029dC25C8231203901C337F88B01275D
+    Aggressive (High-Yield): 0x7Aad7120f162744bc645b5f65088eCF0e4dEE0B8
+  ============================================
